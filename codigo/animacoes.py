@@ -5,7 +5,7 @@ from var_globais import *
 class Animacoes(pygame.sprite.Sprite):
     def __init__(self,duracao=3):
         self.__fonte = pygame.font.Font('../fonte/Pixeled.ttf',30)
-        self.__fonte_buff = pygame.font.Font('../fonte/Pixeled.ttf',15)
+        self.__fonte_buff = pygame.font.Font('../fonte/Pixeled.ttf',10)
         self.__duracao = duracao
         self.__ativa = False
         self.__inicio = 0

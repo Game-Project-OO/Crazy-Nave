@@ -752,9 +752,6 @@ class Jogo:
 
         padroes_spawnados+=1
 
-        if padroes_spawnados <= 1:
-            return
-        
         if padroes_spawnados % 1 == 0:
             efeitos = [
                 "reduzir_cooldown_meteoro",
